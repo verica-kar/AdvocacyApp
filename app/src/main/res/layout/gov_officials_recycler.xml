@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="80dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="14dp"
+        android:textAlignment="textStart"
+        android:textColor="#9E1386"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mainImage"
+        app:layout_constraintTop_toTopOf="@+id/mainImage"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/nameAndParty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="14dp"
+        android:textAlignment="textStart"
+        android:textColor="#9E1386"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mainImage"
+        app:layout_constraintTop_toTopOf="@+id/mainImage"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/separator" />
+</androidx.constraintlayout.widget.ConstraintLayout>

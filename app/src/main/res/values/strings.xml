@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Civil Advocacy</string>
+    <string name="deniedText">Location permission was denied - cannot determine address</string>
+    <string name="civil_advocacy">Civil Advocacy</string>
+    <string name="data_provided_by">Data provided by</string>
+    <string name="_2022_verica_karanakova">© 2022, Verica Karanakova</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="google_civic_information_api"><u>Google Civic Information API</u></string>
+    <string name="phone">Phone:</string>
+    <string name="email">Email:</string>
+    <string name="website">Website:</string>
+</resources>
